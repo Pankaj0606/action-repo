@@ -1,14 +1,31 @@
-# action-repo
-Dummy GitHub repo to trigger webhook events (push, pull request, merge).
+# Action Repository
 
-Test-update
+This is a dummy GitHub repository created specifically to trigger and test GitHub webhook events such as **push**, **pull request**, and **merge** events.
 
-update
+## Purpose
 
-Testing Webhook
+This repository is used primarily for testing and validating webhook listeners by generating real GitHub events. It does not contain production code or application logic.
 
-Test push at Mon Jun  2 23:34:11 IST 2025
+You can perform actions like:
+- Push commits
+- Open pull requests
+- Merge pull requests
 
-Testing pull request event at Mon Jun  2 23:42:05 IST 2025
+These actions will generate webhook events that can be captured by webhook listeners.
 
-Merge Test at Tue Jun  3 01:58:40 IST 2025
+## Integration
+
+This repo works in conjunction with the [Webhook Listener Repository](https://github.com/Pankaj0606/webhook-repo), which is responsible for receiving, processing, and displaying these events.
+
+For full code, setup, and documentation of the webhook listener, please visit the webhook-repo:  
+[https://github.com/Pankaj0606/webhook-repo](https://github.com/Pankaj0606/webhook-repo)
+
+## Example Testing Logs
+
+- Test push at Mon Jun 2 23:34:11 IST 2025  
+- Test pull request event at Mon Jun 2 23:42:05 IST 2025  
+- Merge test at Tue Jun 3 01:58:40 IST 2025  
+
+---
+
+*This repository is intended solely for development and testing purposes.*
