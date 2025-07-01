@@ -45,3 +45,4 @@ For full code, setup, and documentation of the webhook listener, please visit th
 ---
 
 *This repository is intended solely for development and testing purposes.*
+Testing from terminal
